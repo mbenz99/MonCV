@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+
+    /* background-color: black; */
+}
+
+#SideBar {
+    background-color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#SideBar h1 {
+   color: white;
+}
+
+#SideBar h2 {
+    color: white;
+ }
+
+#main {
+
+    width: 75%;
+    height: 100vh; 
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-image: url('./pics/wave-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: aqua; */
+}
+
+#MonAvatar {
+    width: 80%;
+    border-radius: 25px;
+}
+
+.master {
+    width: 500px;
+    height: 20px;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.percent {
+    background-color: green;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    border: 2px solid black;
+}
+
+.percent p {
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+}
+
+/* #bcgpic{
+    opacity: 0.75;
+    display: flex;
+    width: 100%;
+} */
+
+.title{
+    color: orangered;
+}
+
+.icon{
+    color: orangered;
+}
+
+.text{
+    color: white;
+}
+
+.textus{
+    color: black;
+}
+
+.about{line-height: 2;}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    
+        /* background-color: black; */
+    }
+
+
+    #main {
+
+        width: 100%;
+
+        /* background-color: aqua; */
+    }
+
+
+    #SideBar {
+        width: 100%;
+    }
+
+
+}
+
